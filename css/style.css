@@ -24,6 +24,7 @@ body {
     justify-content:space-between;
     align-items: center;
     flex-wrap: nowrap;
+    padding-top: 15px;
 }
 
 .header__nav-list {
@@ -52,6 +53,7 @@ body {
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
+    border-top: 0.1px solid rgba(20, 20, 20, 0.1);
 }
 
 .main__presentation {
@@ -76,13 +78,15 @@ body {
 .title__name {
     color: var(--text-color);
     margin-left: 30px;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 56px;
+    font-weight: 800;
 }
 
 .title__text {
     color: var(--text-color);
     margin-left: 30px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 span {
@@ -101,8 +105,8 @@ span {
 
 .contact {
     color: var(--text-color-secondary);
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: 800;
     margin-top: 50px;
 }
 
@@ -116,6 +120,7 @@ span {
     justify-content: center;
     align-items: center;
     line-height: 1.2;
+    font-weight: lighter;
 }
 
 .btn {
