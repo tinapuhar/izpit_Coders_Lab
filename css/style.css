@@ -1,0 +1,71 @@
+:root {
+    --text-color: #F7F7F7;
+    --text-color-secondary: #ffffff; 
+    --text-color-accent: #e65f78;
+    --background-color-header-main: #1F1F1F;
+    --background-color-section: #333333;
+    --background-color-footer: black;
+    --text-font: Open Sans;
+}
+
+body {
+    font-family: var(--text-font), sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--background-color-header-main);
+    min-height: 60px;
+}
+
+.header__nav-list-item {
+    color: var(--text-color)
+}
+
+.main {
+    background-color: var(--background-color-header-main);
+    color: var(--text-color)
+    min-height: 400px;
+}
+
+.title__name {
+    color: var(--text-color)
+}
+
+.title__text {
+    color: var(--text-color)
+}
+
+span {
+    color: var(--text-color-accent)
+}
+
+.section {
+    background-color: var(--background-color-section);
+    color: var(--text-color-secondary)
+    min-height: 400px;
+}
+
+.contact {
+    color: var(--text-color-secondary)
+}
+
+.contact__text {
+    color: var(--text-color-secondary)
+}
+
+.btn {
+    background-color: var(--text-color-accent);
+    color: var(--text-color-secondary)
+}
+
+.footer {
+    background-color: var(--background-color-footer);
+    color: var(--text-color-secondary);
+    min-height: 60px;
+    
+}
