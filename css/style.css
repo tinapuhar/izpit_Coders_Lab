@@ -125,6 +125,15 @@ span {
     border-radius: 3px;
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
 .footer {
     background-color: var(--background-color);
     color: var(--text-color-secondary);
