@@ -2,9 +2,8 @@
     --text-color: #F7F7F7;
     --text-color-secondary: #ffffff; 
     --text-color-accent: #e65f78;
-    --background-color-header-main: #1F1F1F;
+    --background-color: #1F1F1F;
     --background-color-section: #333333;
-    --background-color-footer: black;
     --text-font: Open Sans;
 }
 
@@ -13,12 +12,12 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
 .header {
-    background-color: var(--background-color-header-main);
+    background-color: var(--background-color);
     min-height: 60px;
     display: flex;
     flex-direction:row;
@@ -46,9 +45,9 @@ body {
 }
 
 .main {
-    background-color: var(--background-color-header-main);
+    background-color: var(--background-color);
     color: var(--text-color);
-    min-height: 600px;
+    min-height: 700px;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -62,6 +61,16 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 100px;
+}
+
+.main__picture {
+    transform: scale(0.8);
+}
+
+.main__text {
+    line-height: 0.4;
+    margin-bottom: 30px;
+    margin-left: -10px;
 }
 
 .title__name {
@@ -83,7 +92,7 @@ span {
 .section {
     background-color: var(--background-color-section);
     color: var(--text-color-secondary);
-    min-height: 400px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -113,11 +122,11 @@ span {
     background-color: var(--text-color-accent);
     color: var(--text-color-secondary);
     padding: 10px;
-    border-radius: 1px;
+    border-radius: 3px;
 }
 
 .footer {
-    background-color: var(--background-color-footer);
+    background-color: var(--background-color);
     color: var(--text-color-secondary);
     min-height: 60px;
     display: flex;
