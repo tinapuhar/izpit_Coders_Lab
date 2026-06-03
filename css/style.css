@@ -48,7 +48,7 @@ body {
 .main {
     background-color: var(--background-color-header-main);
     color: var(--text-color);
-    min-height: 400px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -61,11 +61,14 @@ body {
     justify-content:center;
     align-items: center;
     flex-wrap: nowrap;
+    margin-top: 100px;
 }
 
 .title__name {
     color: var(--text-color);
     margin-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .title__text {
@@ -89,15 +92,28 @@ span {
 
 .contact {
     color: var(--text-color-secondary);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
 }
 
 .contact__text {
     color: var(--text-color-secondary);
+    box-sizing: border-box;
+    width: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
 }
 
 .btn {
     background-color: var(--text-color-accent);
     color: var(--text-color-secondary);
+    padding: 10px;
+    border-radius: 1px;
 }
 
 .footer {
@@ -108,4 +124,9 @@ span {
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
+}
+
+.copyright {
+    font-size: 10px;
+    font-weight: normal;
 }
