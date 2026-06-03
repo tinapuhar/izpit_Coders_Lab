@@ -20,52 +20,92 @@ body {
 .header {
     background-color: var(--background-color-header-main);
     min-height: 60px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header__nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 25px;
+    margin-right: 100px;
 }
 
 .header__nav-list-item {
-    color: var(--text-color)
+    color: var(--text-color);
+}
+
+.logo {
+    margin-left: 100px;
 }
 
 .main {
     background-color: var(--background-color-header-main);
-    color: var(--text-color)
+    color: var(--text-color);
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.main__presentation {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .title__name {
-    color: var(--text-color)
+    color: var(--text-color);
+    margin-left: 30px;
 }
 
 .title__text {
-    color: var(--text-color)
+    color: var(--text-color);
+    margin-left: 30px;
 }
 
 span {
-    color: var(--text-color-accent)
+    color: var(--text-color-accent);
 }
 
 .section {
     background-color: var(--background-color-section);
-    color: var(--text-color-secondary)
+    color: var(--text-color-secondary);
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }
 
 .contact {
-    color: var(--text-color-secondary)
+    color: var(--text-color-secondary);
 }
 
 .contact__text {
-    color: var(--text-color-secondary)
+    color: var(--text-color-secondary);
 }
 
 .btn {
     background-color: var(--text-color-accent);
-    color: var(--text-color-secondary)
+    color: var(--text-color-secondary);
 }
 
 .footer {
     background-color: var(--background-color-footer);
     color: var(--text-color-secondary);
     min-height: 60px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }
